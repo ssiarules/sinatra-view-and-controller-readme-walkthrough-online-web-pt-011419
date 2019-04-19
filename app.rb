@@ -11,7 +11,7 @@ class App < Sinatra::Base
      @reversed_string = original_string.reverse
   
     erb :reversed
-    puts params
+    #puts params
   end
 
   get '/friends' do
